@@ -1,8 +1,8 @@
-# SmartViz-ML v8
+# SmartViz-ML
 
 **Explainable Machine Learning for Automated Business Visualization and Decision Support**
 
-PhD research project — BAEL Doctoral Framework — UAC Butembo, DRC
+Msc research project — BAEL Master Framework — UP Diliman, Philippines
 
 ---
 
