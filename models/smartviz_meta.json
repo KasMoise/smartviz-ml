@@ -1,0 +1,56 @@
+{
+  "FEATURE_COLS": [
+    "n_numeric",
+    "n_categorical",
+    "n_datetime",
+    "max_cardinality",
+    "mean_correlation",
+    "missing_ratio",
+    "has_temporal",
+    "has_geo",
+    "kw_temporal",
+    "kw_rank",
+    "kw_compare",
+    "kw_proportion",
+    "kw_distribution",
+    "kw_correlation",
+    "kw_geographic",
+    "kw_segment",
+    "kw_anomaly",
+    "kw_prediction"
+  ],
+  "VIZ_TYPES": [
+    "line_chart",
+    "bar_chart",
+    "scatter_plot",
+    "pie_chart",
+    "histogram",
+    "box_plot",
+    "heatmap",
+    "choropleth"
+  ],
+  "SEGMENT_NAMES": [
+    "VIP",
+    "Loyal",
+    "Potential",
+    "Occasional",
+    "At-Risk"
+  ],
+  "best_model_name": "Logistic Regression",
+  "best_fc_name": "Random Forest",
+  "n_clusters": 5,
+  "pool_c_acc1": 0.7233,
+  "pool_c_mrr": 0.8497,
+  "intent_keywords": {
+    "kw_temporal": "trend|over time|evolution|monthly|weekly|daily|forecast|growth|decline",
+    "kw_rank": "top|best|worst|rank|most|least|highest|lowest|leading",
+    "kw_compare": "compare|comparison|versus|vs\\b|between|difference",
+    "kw_proportion": "proportion|share|percentage|part|breakdown|contribution",
+    "kw_distribution": "distribution|spread|range|histogram|frequency|quartile|outlier",
+    "kw_correlation": "correlation|relationship|association|scatter|link",
+    "kw_geographic": "map|region|country|geographic|location|where",
+    "kw_segment": "segment|cluster|group|profile|category",
+    "kw_anomaly": "anomaly|outlier|unusual|suspicious|extreme|abnormal",
+    "kw_prediction": "predict|forecast|future|next|expect"
+  }
+}
