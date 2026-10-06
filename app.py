@@ -242,8 +242,10 @@ with st.sidebar:
     st.markdown('<hr class="sidebar-divider">', unsafe_allow_html=True)
     st.markdown(
         '<span style="font-size:0.68rem;color:#4338ca !important">'
-        'SmartViz-ML v8 · Research prototype<br>'
+        'SmartViz-ML · Research prototype<br>'
+        'Author: Moïse Kambale Kasambya'
         'Msc candidate — UP Diliman, Philippines<br>'
+        'Supervisor: Richelle Ann B. Juayong, PhD'
         'BAEL framework</span>',
         unsafe_allow_html=True,
     )
