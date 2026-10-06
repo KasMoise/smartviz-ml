@@ -1,0 +1,12 @@
+# Never commit these to Git
+.streamlit/secrets.toml
+human_eval_responses.csv
+models/*.joblib
+__pycache__/
+*.pyc
+.DS_Store
+*.egg-info/
+.env
+
+# Keep model metadata (small JSON, no sensitive data)
+!models/smartviz_meta.json
