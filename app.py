@@ -12,7 +12,7 @@ st.set_page_config(
     menu_items={
         "Get help": None,
         "Report a bug": None,
-        "About": "SmartViz-ML — Explainable ML for Business Visualization (v8)",
+        "About": "SmartViz-ML — Explainable ML for Business Visualization",
     },
 )
 
@@ -44,7 +44,7 @@ html, body, [class*="css"] {
 
 /* Brand in sidebar */
 .sidebar-brand {
-    font-family: 'Syne', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-size: 1.35rem;
     font-weight: 800;
     background: linear-gradient(135deg, #a5b4fc, #67e8f9);
@@ -243,7 +243,7 @@ with st.sidebar:
     st.markdown(
         '<span style="font-size:0.68rem;color:#4338ca !important">'
         'SmartViz-ML v8 · Research prototype<br>'
-        'PhD candidate — UAC Butembo, DRC<br>'
+        'Msc candidate — UP Diliman, Philippines<br>'
         'BAEL framework</span>',
         unsafe_allow_html=True,
     )
@@ -349,7 +349,7 @@ st.markdown("""
     <div class="paper-icon">📄</div>
     <div>
         <div class="paper-title">SmartViz-ML: An Explainable Machine Learning Framework for Automated Business Visualization and Decision Support</div>
-        <div class="paper-sub">Research paper in preparation · BAEL Doctoral Framework · UAC Butembo, DRC</div>
+        <div class="paper-sub">Research paper in preparation · BAEL Master Framework · UP Diliman, Philippines</div>
     </div>
 </div>
 """, unsafe_allow_html=True)
