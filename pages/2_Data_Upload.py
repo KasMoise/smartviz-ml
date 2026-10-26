@@ -10,8 +10,8 @@ from utils.data_profiler import profile_dataset
 st.markdown("""
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap');
-html, body, [class*="css"] { font-family: 'Inter', sans-serif; }
-.page-title { font-family:'Syne',sans-serif; font-size:2rem; font-weight:800; color:#1e293b; }
+html, body, [class*="css"] { font-family: 'Arial', sans-serif; }
+.page-title { font-family:'Inter',sans-serif; font-size:2rem; font-weight:800; color:#1e293b; }
 .page-sub   { color:#64748b; font-size:0.95rem; margin-bottom:1.5rem; }
 .profile-card {
     background:white; border-radius:14px; padding:1.25rem 1.5rem;
