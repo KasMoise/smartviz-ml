@@ -113,3 +113,8 @@ This file is the input for the notebook's §13 human evaluation analysis.
 - **Primary model**: Random Forest — Pool C Acc@1=0.9500, MRR=0.9688
 - **Pool D (held-out)**: Acc@1=0.9615, MRR=0.9776 (gap within ±0.05)
 - **Statistical tests**: All-pairs Wilcoxon signed-rank (RF > all others, p<0.01)
+
+## License and Warranty
+
+- **License:** The repository code is licensed under the terms in LICENSE. We do not claim ownership of or the right to license the third-party data or software tools used. Please pass forward any existing license/warranty/copyright information when redistributing.
+- THE DATA AND SOFTWARE ARE PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.
